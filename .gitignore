@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+venv/
+env/
+.env
+.venv
+*.log
+
+# Hugging Face / Datasets / Model Outputs
+.cache/
+.cache_hf_datasets_07/
+logs_bert_finetune_07/
+results_bert_finetune_07/
+onnx_models/
+
+# IDE / System files
+.idea/
+.vscode/
+.DS_Store
